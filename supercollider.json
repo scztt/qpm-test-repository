@@ -1,0 +1,73 @@
+{
+	"name": SuperCollider,
+	"author": "James McCartney", 
+
+	"versions": {
+		"3.6.6": {
+			"release": {
+				"mac": {
+					"href": "http://sourceforge.net/projects/supercollider/files/Mac%20OS%20X/3.6/SuperCollider-3.6.6-OSX.dmg/download",
+					"setup-script": ""
+				}
+				"linux": "http://sourceforge.net/projects/supercollider/files/Source/3.6/SuperCollider-3.6.6-Source.tar.bz2/download",
+				"win"
+
+			},
+
+		"2.1.1": {
+			"dependencies": {
+				"core": "3.6.5"
+			},
+			"release": "https://github.com/rbarrois/python-semanticversion/archive/v2.1.1.zip",
+			},
+
+		"2.1.2": {
+			"dependencies": {
+				"core": "3.6.5"
+			},
+			"release": "https://github.com/rbarrois/python-semanticversion/archive/v2.1.2.zip",
+			},
+
+		"1.2.0": {
+			"dependencies": {
+				"core": "3.6.5"
+			},
+			"release": "https://github.com/rbarrois/python-semanticversion/archive/v1.2.0.zip",
+			}
+	}
+},
+
+"test_quark2": {
+	"author": "Scott Carver", 
+	"email": "scott@artificia.org",
+
+	"versions": {
+		"2.1.0": {
+			"dependencies": {
+				"core": "3.6.5"
+			},
+			"release": "https://github.com/rbarrois/python-semanticversion/archive/v2.1.0.zip",
+			},
+
+		"2.1.1": {
+			"dependencies": {
+				"core": "3.6.5"
+			},
+			"release": "https://github.com/rbarrois/python-semanticversion/archive/v2.1.1.zip",
+			},
+
+		"2.1.2": {
+			"dependencies": {
+				"core": "3.6.5"
+			},
+			"release": "https://github.com/rbarrois/python-semanticversion/archive/v2.1.2.zip",
+			},
+
+		"1.2.0": {
+			"dependencies": {
+				"core": "3.6.5"
+			},
+			"release": "https://github.com/rbarrois/python-semanticversion/archive/v1.2.0.zip",
+			}
+	}
+}
